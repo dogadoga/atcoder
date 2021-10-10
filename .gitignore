@@ -36,6 +36,6 @@
 *.out
 *.app
 
-*.vscode
+# *.vscode
 
 *.code-workspace
