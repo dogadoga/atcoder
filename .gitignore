@@ -1,4 +1,4 @@
-# add files without dots in them (all extension-less files) to the gitignore file? 
+# add files without dots in them (all extension-less files) to the gitignore file
 *
 !*/
 !*.*
