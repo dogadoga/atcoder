@@ -12,3 +12,5 @@ string s;
 printf("%05d",1)
 // o—Í : 00001
 
+// —İæ x^n 
+std::pow(x,n)
