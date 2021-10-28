@@ -8,8 +8,5 @@ using ll = long long;
 
 int main()
 {
-	string s;
-	cin >> s;
-	cout << sz(s) << endl;
 	return 0;
 }
