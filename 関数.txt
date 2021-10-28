@@ -1,0 +1,14 @@
+// charŒ^‚Ì•¶š—ñ‚Ì—v‘f”‚ğ”‚¦‚é
+strlen(a);
+
+// •¶š—ñ‚ğo—Í
+puts("ABCDEFG");
+
+// string‚Ì•¶š”‚ğ”‚¦‚é
+string s;
+(int)s.size()
+
+// ƒ[ƒ‹l‚ß
+printf("%05d",1)
+// o—Í : 00001
+

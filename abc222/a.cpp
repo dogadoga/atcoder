@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	int a, b, c;
-	
-return 0;
+	int a;
+	cin >> a;
+	printf("%04d",a);
+	return 0;
 }
