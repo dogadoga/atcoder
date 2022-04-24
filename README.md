@@ -1,6 +1,4 @@
 # atcoder
-For Atcoder
-
 AtCoderの参戦アーカイブです。
 
 ## 環境
