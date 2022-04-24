@@ -1,53 +1,53 @@
-# æ•´æ•°
+# ®”
 
-# 1 è¡Œ 1 åˆ—
+# 1 s 1 —ñ
 N = int(input())
 
-# 1 è¡Œè¤‡æ•°åˆ—
+# 1 s•¡”—ñ
 N, M = map(int, input().split())
 
-# 1 è¡Œã‚’ãƒªã‚¹ãƒˆã«
+# 1 s‚ğƒŠƒXƒg‚É
 a = list(map(int, input().split()))
 
-# N è¡Œ 1 åˆ—ã‚’ãƒªã‚¹ãƒˆã«
+# N s 1 —ñ‚ğƒŠƒXƒg‚É
 a = [int(input()) for i in range(N)]
 
-# N è¡Œè¤‡æ•°åˆ—ã‚’ 2 æ¬¡å…ƒãƒªã‚¹ãƒˆã«
+# N s•¡”—ñ‚ğ 2 ŸŒ³ƒŠƒXƒg‚É
 a = [list(map(int, input().split())) for i in range(N)]
 
-# N è¡Œ 2 åˆ—
+# N s 2 —ñ
 xy = [map(int, input().split()) for _ in range(N)]
 x, y = [list(i) for i in zip(*xy)]
 
-# N è¡Œè¤‡æ•°åˆ—ã‚’åˆ—ã”ã¨ã«ç•°ãªã‚‹ãƒªã‚¹ãƒˆã¸
+# N s•¡”—ñ‚ğ—ñ‚²‚Æ‚ÉˆÙ‚È‚éƒŠƒXƒg‚Ö
 abc = [map(int, input().split()) for _ in range(N)]
 a, b, c = [list(i) for i in zip(*abc)]
 
-# æ–‡å­—åˆ—ã‚’æ•°å­—ã«ã—ã¦ãƒªã‚¹ãƒˆã«è¿½åŠ  ('1122'ã¨ã‹ã‚’[1,1,2,2]ã«)
+# •¶š—ñ‚ğ”š‚É‚µ‚ÄƒŠƒXƒg‚É’Ç‰Á ('1122'‚Æ‚©‚ğ[1,1,2,2]‚É)
 n = [int(x) for x in input()]
 
 
-# æ–‡å­—åˆ—---------------------------------------------
+# •¶š—ñ---------------------------------------------
 
-# 1è¡Œã«1ã¤
+# 1s‚É1‚Â
 s = input()
 
-# 1è¡Œã«è¤‡æ•°
+# 1s‚É•¡”
 s, t = input().split()
 
-# 1è¡Œã‚¹ãƒšãƒ¼ã‚¹ãªã— (ãƒªã‚¹ãƒˆã«)
+# 1sƒXƒy[ƒX‚È‚µ (ƒŠƒXƒg‚É)
 s = list(input)
 
-# 1è¡Œã‚¹ãƒšãƒ¼ã‚¹ã‚ã‚Š (ãƒªã‚¹ãƒˆã«)
+# 1sƒXƒy[ƒX‚ ‚è (ƒŠƒXƒg‚É)
 s = input().split()
 
-# è¤‡æ•°è¡Œ1åˆ—ã‚’ãƒªã‚¹ãƒˆã«
+# •¡”s1—ñ‚ğƒŠƒXƒg‚É
 a = [input() for i in range(n)]
 
-# è¤‡æ•°è¡Œ (2æ¬¡å…ƒãƒªã‚¹ãƒˆã«)
+# •¡”s (2ŸŒ³ƒŠƒXƒg‚É)
 g = [list(input()) for i in range(n)]
 
-#sysã‚’ä½¿ã£ãŸå®šç¾©
+#sys‚ğg‚Á‚½’è‹`
 # import sys
 # def I(): return int(sys.stdin.readline().rstrip())
 # def MI(): return map(int,sys.stdin.readline().rstrip().split())
@@ -55,15 +55,15 @@ g = [list(input()) for i in range(n)]
 # def S(): return sys.stdin.readline().rstrip()
 # def LS(): return list(sys.stdin.readline().rstrip())
 
-# æ™®é€šã®å®šç¾©
+# •’Ê‚Ì’è‹`
 def I(): return int(input())
 def MI(): return map(int, input().split())
 def LI(): return list(map(int,input().split()))
 def S(): return input()
 def LS(): return list(input())
 
-# ãƒªã‚¹ãƒˆã‚’å‡ºåŠ›
-# ã‚¢ã‚¹ã‚¿ãƒªã‚¹ã‚¯ã‚’ã¤ã‘ã¦ã‚¢ãƒ³ãƒ‘ãƒƒã‚¯ã§ãã‚‹
+# ƒŠƒXƒg‚ğo—Í
+# ƒAƒXƒ^ƒŠƒXƒN‚ğ‚Â‚¯‚ÄƒAƒ“ƒpƒbƒN‚Å‚«‚é
 # s = [1, 2, 3, 4, 5]
 print(*s)  # 1 2 3 4 5
 print(*s, sep='-')  # 1-2-3-4-5
