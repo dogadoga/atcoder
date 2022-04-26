@@ -5,3 +5,9 @@ def MI(): return map(int, input().rstrip().split())
 def LI(): return list(map(int,input().rstrip().split()))
 def S(): return input().rstrip()
 def LS(): return list(input().rstrip())
+
+def main():
+	print(sum(map(int, list(input().rstrip()))))
+	
+if __name__ == '__main__':
+  main()
