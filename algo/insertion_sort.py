@@ -7,7 +7,6 @@ def insert_sort(data):
             data[j + 1] = data[j]       #右へ1つデータを移す
             j -= 1
         data[j + 1] = tmp     #上の操作で移動を終えた所に一時的に記録していた挿入データを代入
-
     return data
 
 if __name__ == '__main__':
